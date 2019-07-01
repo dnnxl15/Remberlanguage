@@ -4,7 +4,6 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var UserSchema = Schema({
-    _id: mongoose.Schema.Types.ObjectId,
     name: String,
     lastName: String,
     username: String,
